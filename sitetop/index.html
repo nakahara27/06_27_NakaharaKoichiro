@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<title>保育園シフト</title>
+	<link rel='stylesheet' type='text/css' href='css/reset.css' />
+	<link rel='stylesheet' type='text/css' href='css/sanitize.css' />
+	<link rel='stylesheet' type='text/css' href='css/style.css' />
+</head>
+<body>
+	<div>
+		<div>
+			<button type='button' class='btn_type1' id='btn_load_db'>保存分を呼び出す</button>
+			<button type='button' class='btn_type1' id='btn_total_excel'>登園予定表Excelより取得</button>
+		</div>
+		<div id='div_base'></div>
+	</div>
+	<div><textarea style='width:20em;height:20em;' id='txa_paste_excel'></textarea></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src='shift.js'></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+	margin-left:10px;
+}
+
+/*パディングをサイズ内側にする処理*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#txa_paste_excel{/*登園予定表Excel 貼り付け枠*/
+	display:none;
+}
+
+.btn_type1,.btn_save{/*ボタンタイプ１（保存分を呼び出す/登園予定表Excelより取得）*/
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	color:#000000;
+	margin: 5px;
+	padding: 4px 8px;
+	border-radius: 5px;
+	text-align: left;
+	overflow: hidden;
+	font-weight: bold;
+	background: linear-gradient(#eeeeee 0%, #bbbbbb 100%);
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+.btn_type1:hover{
+	cursor: pointer;
+}
+
+.btn_switch_day{/*日切り替えボタン*/
+	margin:0 3px;
+	padding:0 3px;
+	border:2px solid silver;
+}
+.btn_switch_day:hover{
+	cursor: pointer;
+}
+
+.btn_shift{/*各保育士・各時間帯 ボタン*/
+	height:auto;
+	width:auto;
+}
+.btn_shift:hover{
+	cursor: pointer;
+}
+
+.div_mode{
+ text-align:center;
+}
+
+.th_col{
+	padding:0 5px;
+	border:1px solid silver;
+	text-align:center;
+}
+
+.th_row{
+	padding:0 5px;
+	border:1px solid silver;
+	text-align:center;
+}
+
+td{
+	padding:0 5px;
+	border:1px solid silver;
+	text-align:right;
+}
